@@ -12,6 +12,7 @@ class MathOps:
         self.logger.info(f"{a=}, {b=}")
         result = a + b
         self.logger.info(f"{result=}")
+        return result
 
     def sub(self, a: int, b: int) -> int:
         return a - b
@@ -20,7 +21,7 @@ class MathOps:
         return a * b
 
     def div(self, a: int, b: int) -> float:
-        if b!=0:
+        if b != 0:
             return a / b
         else:
             raise ValueError("Deviser must be non-zero")
