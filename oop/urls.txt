@@ -1,0 +1,3 @@
+https://pythongeeks.org/inheritance-in-python/
+https://www.askpython.com/python/oops/abstraction-in-python
+https://docs.python.org/3.10/library/collections.html#
